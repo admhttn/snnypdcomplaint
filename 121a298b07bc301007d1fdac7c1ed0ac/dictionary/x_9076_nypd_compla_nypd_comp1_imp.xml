@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="NYPD Complaint Data CSV format v1.0" max_length="40" name="x_9076_nypd_compla_nypd_comp1_imp" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ADDR_PCT_CD" label="ADDR_PCT_CD" max_length="40" name="u_addr_pct_cd" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BORO_NM" label="BORO_NM" max_length="40" name="u_boro_nm" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CMPLNT_FR_DT" label="CMPLNT_FR_DT" max_length="40" name="u_cmplnt_fr_dt" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CMPLNT_FR_TM" label="CMPLNT_FR_TM" max_length="40" name="u_cmplnt_fr_tm" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CMPLNT_NUM" label="CMPLNT_NUM" max_length="40" name="u_cmplnt_num" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CMPLNT_TO_DT" label="CMPLNT_TO_DT" max_length="40" name="u_cmplnt_to_dt" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CMPLNT_TO_TM" label="CMPLNT_TO_TM" max_length="40" name="u_cmplnt_to_tm" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CRM_ATPT_CPTD_CD" label="CRM_ATPT_CPTD_CD" max_length="40" name="u_crm_atpt_cptd_cd" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=HADEVELOPT" label="HADEVELOPT" max_length="40" name="u_hadevelopt" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=HOUSING_PSA" label="HOUSING_PSA" max_length="40" name="u_housing_psa" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=JURISDICTION_CODE" label="JURISDICTION_CODE" max_length="40" name="u_jurisdiction_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=JURIS_DESC" label="JURIS_DESC" max_length="40" name="u_juris_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=KY_CD" label="KY_CD" max_length="40" name="u_ky_cd" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Latitude" label="Latitude" max_length="40" name="u_latitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Lat_Lon" label="Lat_Lon" max_length="40" name="u_lat_lon" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LAW_CAT_CD" label="LAW_CAT_CD" max_length="40" name="u_law_cat_cd" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LOC_OF_OCCUR_DESC" label="LOC_OF_OCCUR_DESC" max_length="40" name="u_loc_of_occur_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Longitude" label="Longitude" max_length="40" name="u_longitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=OFNS_DESC" label="OFNS_DESC" max_length="40" name="u_ofns_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PARKS_NM" label="PARKS_NM" max_length="40" name="u_parks_nm" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PATROL_BORO" label="PATROL_BORO" max_length="40" name="u_patrol_boro" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PD_CD" label="PD_CD" max_length="40" name="u_pd_cd" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PD_DESC" label="PD_DESC" max_length="60" name="u_pd_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PREM_TYP_DESC" label="PREM_TYP_DESC" max_length="40" name="u_prem_typ_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=RPT_DT" label="RPT_DT" max_length="40" name="u_rpt_dt" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=STATION_NAME" label="STATION_NAME" max_length="40" name="u_station_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SUSP_AGE_GROUP" label="SUSP_AGE_GROUP" max_length="40" name="u_susp_age_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SUSP_RACE" label="SUSP_RACE" max_length="40" name="u_susp_race" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SUSP_SEX" label="SUSP_SEX" max_length="40" name="u_susp_sex" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=TRANSIT_DISTRICT" label="TRANSIT_DISTRICT" max_length="40" name="u_transit_district" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=VIC_AGE_GROUP" label="VIC_AGE_GROUP" max_length="40" name="u_vic_age_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=VIC_RACE" label="VIC_RACE" max_length="40" name="u_vic_race" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=VIC_SEX" label="VIC_SEX" max_length="40" name="u_vic_sex" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=X_COORD_CD" label="X_COORD_CD" max_length="40" name="u_x_coord_cd" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Y_COORD_CD" label="Y_COORD_CD" max_length="40" name="u_y_coord_cd" type="string"/>
+    </element>
+</database>

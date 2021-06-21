@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Law Category" max_length="40" name="x_9076_nypd_compla_law_category" type="collection">
+        <element display="true" label="Name" mandatory="true" max_length="80" name="name" type="string" unique="true"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>
