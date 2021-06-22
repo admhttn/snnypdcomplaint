@@ -4,5 +4,8 @@
         <index name="index">
             <element name="name"/>
         </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
     </element>
 </database>

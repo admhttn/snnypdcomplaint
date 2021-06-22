@@ -20,7 +20,8 @@
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_9076_nypd_compla</scope>
         <scoped_administration>false</scoped_administration>
-        <short_description>NYPD Complaint Case Management</short_description>
+        <short_description>NYPD Complaint Case Management&#13;
+This is a test application for working with large data sets.  Data is retrieved from https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i</short_description>
         <source>x_9076_nypd_compla</source>
         <store_correlation_id/>
         <store_url/>
@@ -29,15 +30,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-21 21:44:20</sys_created_on>
         <sys_id>121a298b07bc301007d1fdac7c1ed0ac</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-21 21:51:43</sys_updated_on>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>ahutton@kpmg.com</sys_updated_by>
+        <sys_updated_on>2021-06-22 12:41:33</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role display_value="x_9076_nypd_compla.agent" name="x_9076_nypd_compla.agent">df9aa14f07fc301007d1fdac7c1ed0a8</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
     </sys_app>
 </record_update>
