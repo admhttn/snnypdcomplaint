@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" extends="task" label="Complaint" max_length="40" name="x_9076_nypd_compla_complaint" sizeclass="199999" type="collection">
+    <element attributes="live_feed=true" extends="task" label="Complaint" max_length="40" name="x_9076_nypd_compla_complaint" type="collection">
         <element label="Address Pct" max_length="80" name="address_pct" type="string"/>
         <element label="Age Group" max_length="80" name="age_group" type="string"/>
         <element label="Borough" max_length="32" name="borough" reference="x_9076_nypd_compla_borough" type="reference"/>
