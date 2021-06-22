@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>nypd_cpt_id_number</col_name_string>
+        <index_col_name element="nypd_cpt_id_number" name="x_9076_nypd_compla_complaint">3ec06a4b0738701007d1fdac7c1ed047</index_col_name>
+        <logical_table_name>x_9076_nypd_compla_complaint</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-06-22 02:00:47</sys_created_on>
+        <sys_id>3ec4ae4307f8701007d1fdac7c1ed00b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_9076_nypd_compla_complaint</sys_name>
+        <sys_package display_value="NYPD Complaint" source="x_9076_nypd_compla">121a298b07bc301007d1fdac7c1ed0ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NYPD Complaint">121a298b07bc301007d1fdac7c1ed0ac</sys_scope>
+        <sys_update_name>sys_index_x_9076_nypd_compla_complaint_nypd_cpt_id_number</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-22 02:00:47</sys_updated_on>
+        <table display_value="Complaint" name="x_9076_nypd_compla_complaint">672aa10f07fc301007d1fdac7c1ed01c</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>
