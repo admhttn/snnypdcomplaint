@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>NYPD Complaint Management App Administrator</description>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_9076_nypd_compla.admin</name>

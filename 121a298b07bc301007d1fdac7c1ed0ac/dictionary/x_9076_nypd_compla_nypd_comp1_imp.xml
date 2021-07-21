@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="NYPD Complaint Data CSV format v1.0" max_length="40" name="x_9076_nypd_compla_nypd_comp1_imp" type="collection">
+    <element extends="sys_import_set_row" label="NYPD Complaint Data CSV format v1.0" max_length="40" name="x_9076_nypd_compla_nypd_comp1_imp" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=ADDR_PCT_CD" label="ADDR_PCT_CD" max_length="40" name="u_addr_pct_cd" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=BORO_NM" label="BORO_NM" max_length="40" name="u_boro_nm" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CMPLNT_FR_DT" label="CMPLNT_FR_DT" max_length="40" name="u_cmplnt_fr_dt" type="string"/>

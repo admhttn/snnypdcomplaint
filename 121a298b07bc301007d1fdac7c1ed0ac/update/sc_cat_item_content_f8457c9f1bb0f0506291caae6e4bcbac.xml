@@ -2,12 +2,14 @@
     <sc_cat_item_content action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
         <active>true</active>
+        <additional_review>false</additional_review>
         <availability>on_desktop</availability>
         <billable>false</billable>
         <category/>
         <checked_out/>
         <content_type>literal</content_type>
         <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
         <custom_cart/>
         <delivery_plan/>
         <delivery_plan_script/>
@@ -58,7 +60,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Adam D Hutton">404572a71b2380106291caae6e4bcb1c</owner>
+        <owner display_value="">404572a71b2380106291caae6e4bcb1c</owner>
         <picture/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=f8457c9f1bb0f0506291caae6e4bcbac&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
@@ -90,7 +92,6 @@
         <template/>
         <template_manager_roles/>
         <type>item</type>
-        <u_reusable_flow/>
         <url/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
