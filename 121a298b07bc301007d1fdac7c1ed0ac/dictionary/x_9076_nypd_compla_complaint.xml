@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" extends="task" label="Complaint" max_length="40" name="x_9076_nypd_compla_complaint" sizeclass="199999" type="collection">
+        <element label="Address Pct" max_length="80" name="address_pct" type="string"/>
+        <element label="Age Group" max_length="80" name="age_group" type="string"/>
+        <element label="Borough" max_length="32" name="borough" reference="x_9076_nypd_compla_borough" type="reference"/>
+        <element label="Complaint FR DT" max_length="40" name="complaint_fr_dt" type="glide_date"/>
+        <element label="Complaint FR TM" max_length="40" name="complaint_fr_tm" type="glide_time"/>
+        <element label="Complaint TO DT" max_length="40" name="complaint_to_dt" type="glide_date"/>
+        <element label="Complaint TO TM" max_length="40" name="complaint_to_tm" type="glide_time"/>
+        <element label="Crime Attempted or Completed" max_length="80" name="crime_attempted_or_completed" type="string"/>
+        <element label="Housing PSA" max_length="80" name="housing_psa" type="string"/>
+        <element label="Jurisdiction Description" max_length="80" name="jurisdiction_description" type="string"/>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="NYPD CPT ID Number" mandatory="true" max_length="40" name="nypd_cpt_id_number" type="string" unique="true"/>
+        <element label="Park Name" max_length="80" name="park_name" type="string"/>
+        <element label="Station Name" max_length="80" name="station_name" type="string"/>
+    </element>
+</database>
