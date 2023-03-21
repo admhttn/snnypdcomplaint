@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Borough" max_length="40" name="x_9076_nypd_compla_borough" sizeclass="5" type="collection">
+    <element db_object_id="de35a30f97a12110ff4538271153afe5" label="Borough" max_length="40" name="x_9076_nypd_compla_borough" type="collection">
+        <element label="Complaint aggregate score" max_length="40" name="complaint_aggregate_score" type="string"/>
         <element display="true" label="Name" mandatory="true" max_length="140" name="name" type="string" unique="true"/>
-        <index name="index">
+        <index name="index" unique="true">
             <element name="name"/>
         </index>
         <index name="index2">
